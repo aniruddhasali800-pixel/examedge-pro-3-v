@@ -1,0 +1,44 @@
+<h1>Student Dashboard</h1>
+
+<div class="card-grid">
+  <div class="card">
+    <p>Courses</p>
+    <h2>5</h2>
+  </div>
+
+  <div class="card">
+    <p>Tests Completed</p>
+    <h2>12</h2>
+  </div>
+
+  <div class="card">
+    <p>AI Queries</p>
+    <h2>34</h2>
+  </div>
+</div>
+<style>
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .card p {
+    margin: 0;
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+
+  .card h2 {
+    margin: 10px 0 0;
+    font-size: 32px;
+    color: #2c3e50;
+  }

@@ -1,0 +1,44 @@
+<h1>Admin Dashboard</h1>
+
+<div class="card-grid">
+  <div class="card">
+    <p>Total Users</p>
+    <h2>1,240</h2>
+  </div>
+
+  <div class="card">
+    <p>Reports</p>
+    <h2>330</h2>
+  </div>
+
+  <div class="card">
+    <p>Revenue</p>
+    <h2>₹4,500</h2>
+  </div>
+</div>
+<style>
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .card p {
+    margin: 0;
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+
+  .card h2 {
+    margin: 10px 0 0;
+    font-size: 32px;
+    color: #2c3e50;
+  }

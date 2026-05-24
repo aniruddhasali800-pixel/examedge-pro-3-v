@@ -1,0 +1,26 @@
+.login-box {
+  max-width: 360px;
+  margin: 100px auto;
+  background: white;
+  padding: 32px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.login-box button:hover {
+  background: #1d4ed8;
+}

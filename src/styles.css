@@ -1,0 +1,52 @@
+/* ===== Global Reset ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+/* ===== Headings ===== */
+h1 {
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+/* ===== Buttons ===== */
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* ===== Cards ===== */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ===== Grid ===== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
